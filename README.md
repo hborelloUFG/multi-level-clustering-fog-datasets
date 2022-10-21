@@ -2,10 +2,14 @@
 
 Datasets used in the paper named Use of multilevel resource clustering for service placement in fog computing environments
 
-These datasets are the result of composing the datasets found in the repositories below:
- - iFogSim2: https://github.com/Cloudslab/iFogSim
- - EUA Datasets: https://github.com/swinedge/eua-dataset
- - IoT-Compute-Dataset: https://github.com/saifulislamPhD/IoT-Compute-Dataset
+## Description
+ - melb_resources_features.cvs: composition adding node features (CPU, RAM, and BW in IoT-Compute-Dataset) to each node location in the EUA Dataset;
+ - multi-level-clustering-resources.csv: result after multi-level clustering of melb_resources_features.cvs using K-Means algorithm.
+
+## Used datasets to compose the datasets found in this repository:
+ - iFogSim2: https://github.com/Cloudslab/iFogSim;
+ - EUA Datasets: https://github.com/swinedge/eua-dataset;
+ - IoT-Compute-Dataset: https://github.com/saifulislamPhD/IoT-Compute-Dataset.
 
 
 # References
