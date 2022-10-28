@@ -4,7 +4,8 @@ Datasets used in the paper named Use of multilevel resource clustering for servi
 
 ## Description
  - melb_resources_features.cvs: composition adding node features (CPU, RAM, and BW in IoT-Compute-Dataset) to each node location in the EUA Dataset;
- - multi-level-clustering-resources.csv: result after multi-level clustering of melb_resources_features.cvs using K-Means algorithm.
+ - multi-level-clustering-resources.csv: result after multi-level clustering of melb_resources_features.cvs using K-Means algorithm;
+ - appication-config.csv: composition of applications and microservices requirements.
 
 ## Used datasets to compose the datasets found in this repository:
  - iFogSim2: https://github.com/Cloudslab/iFogSim;
